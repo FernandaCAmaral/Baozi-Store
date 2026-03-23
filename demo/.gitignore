@@ -1,0 +1,27 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs (Eclipse, IntelliJ, VS Code)
+.settings/
+.project
+.classpath
+.factorypath
+.metadata/
+bin/
+*.iml
+.idea/
+.vscode/
+
+# Banco de Dados Local (H2)
+# Bloqueia a pasta onde o banco é salvo para não subir dados de teste
+data/
+*.mv.db
+*.trace.db
+
+# Logs e Temporários
+*.log
+.DS_Store
