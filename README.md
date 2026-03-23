@@ -13,24 +13,24 @@ Este projeto é uma **API REST** desenvolvida para o Trabalho Desenvolvimento We
 ## 🛠️ Funcionalidades
 A API segue os padrões REST, oferecendo os seguintes recursos:
 
-* Clientes
-**POST /clientes:** Cadastra um novo cliente (incluindo Nome e RU para fins acadêmicos).
+**Clientes**  
+* POST /clientes: Cadastra um novo cliente (incluindo Nome e RU para fins acadêmicos).
 
-**GET /clientes:** Lista todos os clientes.
+* GET /clientes: Lista todos os clientes.
 
-**GET /clientes/{id}:** Consulta um cliente por ID.
+* GET /clientes/{id}: Consulta um cliente por ID.
 
-**DELETE /clientes/{id}:** Remove um cliente.
+* DELETE /clientes/{id}: Remove um cliente.
 
-* Produtos
-**POST /produtos:** Registra produtos com nome, preço e status de estoque.
+**Produtos**  
+* POST /produtos: Registra produtos com nome, preço e status de estoque.
 
-**GET /produtos:** Lista o catálogo de produtos.
+* GET /produtos: Lista o catálogo de produtos.
 
-* Pedidos
-**POST /pedidos:** Realiza um pedido vinculando o ID do Cliente ao ID do Produto.
+**Pedidos**  
+* POST /pedidos: Realiza um pedido vinculando o ID do Cliente ao ID do Produto.
 
-**GET /pedidos:** Histórico geral de vendas.
+* GET /pedidos: Histórico geral de vendas.
 
 ## 📁 Estrutura do Projeto
 * `src/main/java/com/uninter/demo`: Contém o código fonte (Controller, Model e Repository).
@@ -39,12 +39,13 @@ A API segue os padrões REST, oferecendo os seguintes recursos:
 
 ## ⚙️ Como Executar
 1. Clone o repositório:
+
    Bash
    git clone https://github.com/seu-usuario/baozi-store-api.git
-2. Importe o projeto na sua IDE (Eclipse).
+3. Importe o projeto na sua IDE (Eclipse).
 4. Execute a classe principal `DemoApplication.java.`
-5. Acesse o console do banco de dados em: `http://localhost:8080/h2-console`
-   -JDBC URL: jdbc:h2:file:./data/exemplo
+5. Acesse o console do banco de dados em: `http://localhost:8080/h2-console`  
+   -JDBC URL: jdbc:h2:file:./data/exemplo  
    -User: sa | Pass: (vazio)
 
 
