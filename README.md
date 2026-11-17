@@ -45,8 +45,8 @@ A API segue os padrões REST, oferecendo os seguintes recursos:
 3. Importe o projeto na sua IDE (Eclipse).
 4. Execute a classe principal `DemoApplication.java.`
 5. Acesse o console do banco de dados em: `http://localhost:8080/h2-console`  
-   -JDBC URL: jdbc:h2:file:./data/exemplo  
-   -User: sa | Pass: (vazio)
+   -JDBC URL: jdbc:h2:file:./data/baozi_db
+   -User: SA | Pass: (vazio)
 
 
 **Desenvolvido por:** Fernanda Cunha do Amaral
